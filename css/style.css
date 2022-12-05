@@ -1,0 +1,160 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poppins';
+    color: #000;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* max-width: 1400px; */
+}
+/* .container{
+    overflow: hidden;
+} */
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.slider img{
+     position: relative;
+    width: 100%;
+}
+.navbar-brand{
+ margin: 0 180px ;
+}
+.menu{
+    font-family: 'Poppins';
+    justify-content: center;
+    font-size: small;
+}
+.account{
+    display: inline-block;
+    margin-right: 150px;
+}
+.account__link{
+    display: inline-block;
+    padding: 0 5px;
+    color: white;
+}
+.account__icon{
+    margin-right: 5px;
+}
+
+/* Add fonts trực tiếp từ folder tải về */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+    
+    
+}
+/* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+.feature-product{
+    display: inline-flex;
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    top: 85%;left: 15%;
+}
+.feature-product .container{
+    font-family: 'Poppins';
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.feature-product a{
+    text-decoration: none;
+    color: #000;
+}
+.feature-product p{
+   font-size: small;
+ 
+}
+.feature-product img{
+    transition: transform 1s;
+}
+.feature-product img:hover{
+    transform:scale(1.15);
+}
+.feature-product-box-1{
+    margin-left: 10%;
+}
+.feature-product-box-2{
+    margin-left: 1.5%;
+}
+.feature-product-box-3{
+    margin: 0%;
+}
+.box-feature{
+   
+}
+
+
+.product{
+    margin-top: 360px;
+}
+.header_product{
+    display: flex;
+    margin-right: 15px;
+    letter-spacing: -1px;
+}
+.header_product .top_sellers{
+    color: red;
+}
+.product_body{
+    display: flex;
+}
+.product_body a{
+    text-decoration: none;
+    color: #000;
+}
+.product_body a:hover{
+    color: rgb(255, 0, 0);
+}
+.product_body img{
+    transition: transform 1s;
+}
+.product_body img:hover{
+    transform:scale(1.05);
+}
+.product-box{
+  margin: 5px 0px;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.brand-banner__left{
+    position: absolute;
+    top: 20%;left: 15%;
+    /* background: #000; */
+    color: #fff;
+}
+.brand-banner-left__img{
+    position: absolute;
+    top: 25%;left: 45%;
+    /* background: #000; */
+    color: rgb(179, 102, 102);
+}
